@@ -1,0 +1,39 @@
+body{
+    background-image: url(lovely.jpg);
+    background-size: cover;
+    filter: brightness(200%); /* Adjust brightness (100% = normal, 50% = darker, 150% = lighter) */
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    color: azure;
+}
+.head a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color:rgb(9, 13, 69);
+    font-size: larger;
+    margin: 5px;
+    padding: auto;
+}
+
+.curve{
+    background-color: rgb(140, 148, 133);
+    border-radius: 20px;
+    color: black;
+   
+}
+.box{
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px #0000004d;
+        border-radius: 20px;
+}
+p{
+    color: rgb(156, 167, 139);
+}
+.cen{
+    display: block;
+    justify-content: right;
+    align-items: right;  
+    /* background-color: rgb(185, 223, 107); */
+}
